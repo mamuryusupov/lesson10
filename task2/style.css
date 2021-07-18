@@ -3,6 +3,7 @@ div.block {
     width: 100px;
     background-color: coral;
     margin: 8px;
+    flex-grow: 1;
 }
 
 .container {
