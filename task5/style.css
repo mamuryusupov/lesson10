@@ -1,22 +1,20 @@
-  body {
-      box-sizing: border-box;
-  }
-  
-  header {
-      text-align: center;
-  }
-  
-  .articles-list {
-      display: flex;
-      /* flex-direction: row; */
-      flex-wrap: wrap;
-  }
-  
-  .article {
-      margin: 8px;
-      padding: 16px;
-      background-color: bisque;
-      flex: 1 1;
-      /*300px;*/
-      /* flex-basis: 300px; */
-  }
+   body {
+       box-sizing: border-box;
+   }
+   
+   header {
+       text-align: center;
+   }
+   
+   .articles-list {
+       display: flex;
+       /* flex-direction: row; */
+       flex-wrap: wrap;
+   }
+   
+   .article {
+       margin: 8px;
+       padding: 16px;
+       background-color: bisque;
+       flex: 1 0 300px;
+   }
